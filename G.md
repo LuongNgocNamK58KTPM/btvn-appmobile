@@ -26,7 +26,8 @@ unless-stopped: Tương tự always, nhưng nếu Nam chủ động gõ lệnh d
 
 5. Cách khai báo dùng chung 1 network? Lợi ích là gì?
 Cách làm: Trong mỗi service, thêm đoạn:
-```networks:
+```
+networks:
   - myapp_network```
 
 Lợi ích: Các container có thể nói chuyện với nhau bằng Tên Service thay vì địa chỉ IP (IP Docker thường thay đổi sau mỗi lần restart). Điều này giúp cấu hình luôn ổn định.
