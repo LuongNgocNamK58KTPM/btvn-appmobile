@@ -103,6 +103,7 @@ code html
             });
     </script>
 </body>
-</html>```
+</html>
+```
 #kết quả
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/014a945b-4466-4884-b690-6db785e92201" />
